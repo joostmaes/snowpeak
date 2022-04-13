@@ -6,6 +6,12 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+typed_list:
+  - type: type_2_object
+    datetime: 2022-04-13T09:04:34.547Z
+    number: 2
+    select: b
+    markdown: 1sdasadasd
 ---
 
 # Welcome henkie hoi
