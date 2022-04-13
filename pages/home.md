@@ -6,28 +6,6 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
-- label: 'Home Section'
-  name: 'sections'
-  widget: 'list'
-  types:
-    - label: 'Carousel'
-      name: 'carousel'
-      widget: object
-      summary: '{{fields.header}}'
-      fields:
-        - { label: Header, name: header, widget: string, default: 'Image Gallery' }
-        - { label: Template, name: template, widget: string, default: 'carousel.html' }
-        - label: Images
-          name: images
-          widget: list
-          field: { label: Image, name: image, widget: image }
-    - label: 'Spotlight'
-      name: 'spotlight'
-      widget: object
-      fields:
-        - { label: Header, name: header, widget: string, default: 'Spotlight' }
-        - { label: Template, name: template, widget: string, default: 'spotlight.html' }
-        - { label: Text, name: text, widget: text, default: 'Hello World' }
 ---
 
 # Welcome henkie hoi
